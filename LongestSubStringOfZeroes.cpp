@@ -2,10 +2,8 @@
 #include <vector>
 using namespace std;
 bool ZeroSubstring(string str){
-    bool t = true;
     for (int i=0;i<str.size();i++){
         if (str[i] == '0'){
-            t=true;
             return true;
         }
     }
